@@ -83,7 +83,26 @@ section p {
 
 @media screen and (max-width: 768px) {
   header {
-    left: 30%;
+    left: 28%;
+  }
+  section {
+    margin: 1%;
+  }
+  .chicken {
+    width: 80%;
+  }
+  .beef {
+    width: 80%;
+  }
+  .sushi {
+    width: 80%;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    left: 20%;
   }
   section {
     margin: 1%;
